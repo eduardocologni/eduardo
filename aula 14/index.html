@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class='container-gerador-senha'>
+        <div class="head-gerador-senha">
+            <div class="display">
+                <samp id="senha">1234</samp>
+                <button id="copy  "><i class="fas fa-copy"></i></button>
+            </div>
+        </div>
+        <div class="body-gerador-senha">
+            <div class="form">
+                <label> tamanho da senha</label>
+                <input type="number" id="tamanho" min="6" max="18" value="6">
+            </div>
+            <div class="form">
+                <label> maiuscula</label>
+                <input type="checkbox" id="maiuscula">
+            </div>
+            <div class="form">
+                <label> minusculas</label>
+                <input type="checkbox" id="minusculas">
+            </div>
+            <div class="form">
+                <label> numeros</label>
+                <input type="checkbox" id="numeros">
+            </div>
+            <div class="form">
+                <label> caracteres</label>
+                <input type="checkbox" id="caracteres">
+            </div>
+            <div class="container-btns">
+                <button type="submit" class="submit">gerar senha</button>
+                <button type="reset" class="reset">limpar</button>
+            </div>
+        </div>
+    </div>
+    <div class="alert">senha copiada com sucesso</div>
+    </div>
+</body>
+
+</html>
